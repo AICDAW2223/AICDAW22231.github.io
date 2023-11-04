@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sección de Fútbol</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/styledeportes.css">
+    <style>
+         @font-face {
+        font-family: "Bitstream Vera Serif Bold";
+        src: url("https://mdn.github.io/css-examples/web-fonts/VeraSeBd.ttf");
+        
+      }
+        article a{
+            display: inline;
+            width: 50px;
+            height:20px;
+            font-weight: 500;
+            border-radius: 10px;
+            padding:7px 20px;
+            text-decoration: none;
+            
+            color:#282525;
+            margin-left:120px;
+            text-align: center;
+        }
+        a:hover{
+            background-color: #4ede79;
+            border:2px solid #c9c9c9;
+        }
+        a:active{
+            background-color: #21b14c;
+            
+        }
+        a:visited{
+            background-color: #d5ffc0;
+            color:#282525;
+        }
+        div > a:link {
+            background-color:#35EC6C;
+            
+        }
+        ol >li a{
+            display: block;
+           margin-top: 1px;
+           padding:5px 0px;
+            text-decoration: none;
+            background-color:#35EC6C;
+            color:#282525;
+           
+            text-align: center;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/d0cf59b832.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="contenedor">
+            <header>
+                
+             <img src="./assets/images/logo1.png" usemap="#idmapa" alt="logo" height="200" width="200">
+             <map name="idmapa">
+                <area href="index.html" alt="Web" shape="circle" coords="100,100,86">
+             </map> 
+            
+             <h1>Deportes DIW</h1>
+            </header>
+            <div id="maquetado">
+                <nav >
+               <ul class="listapadre">
+                   <li><a href="index.html">Inicio</a></li>
+                   <li><a href="futbol.html">Futbol</a>
+                       <ul>
+                           <li><a href="futbol.html#ropa-futbol"><i class="fa-solid fa-shirt"></i> Ropa</a></li>
+                           <li><a href="futbol.html#calzado-futbol"><i class="fa-solid fa-shoe-prints"></i> Calzado</a></li>
+                           <li><a href="futbol.html#material-futbol"><i class="fa-regular fa-futbol"></i> Material deportivo</a></li>
+                       </ul>
+                   </li>
+                       
+                   <li><a href="baloncesto.html">Baloncesto</a>
+                       <ul>
+                       <li><a href="baloncesto.html#ropa-baloncesto"><i class="fa-solid fa-shirt"> </i>Ropa</a></li>
+                       <li><a href="baloncesto.html#calzado-baloncesto"><i class="fa-solid fa-shoe-prints"> </i>Calzado</a></li>
+                       <li><a href="baloncesto.html#material-baloncesto"><i class="fa-solid fa-basketball"></i> Material deportivo</a></li>
+                       </ul>
+                   </li>
+                   
+                   <li><a href="tenis.html">Tenis/Padel</a>
+                       <ul>
+                           <li><a href="tenis.html#ropa-tenis"><i class="fa-solid fa-shirt"> </i>Ropa</a></li>
+                           <li><a href="tenis.html#calzado-tenis"><i class="fa-solid fa-shoe-prints"> </i>Calzado</a></li>
+                           <li><a href="tenis.html#raquetas"><i class="fa-solid fa-table-tennis-paddle-ball"></i> Raquetas</a></li>
+                           <li><a href="tenis.html#palas"><i class="fa-solid fa-table-tennis-paddle-ball"></i> Palas</a></li>
+                           <li><a href="tenis.html#pelotas"><i class="fa-solid fa-baseball"></i> Pelotas</a></li>
+                       </ul>
+                   </li>
+                   
+                   <li><a href="running.html">Running</a>
+                       <ul>
+                           <li><a href="running.html#ropa-futbol"><i class="fa-solid fa-shirt"> </i>Ropa</a></li>
+                           <li><a href="running.html#calzado-futbol"><i class="fa-solid fa-shoe-prints"> </i>Calzado</a></li>
+                       </ul>
+                   </li>
+                   
+                   <li><a href="servicios.html">Servicios</a></li>
+                   <li><a href="contacto.html">Contacto</a></li> 
+               </ul>
+                </nav>
+           </div>
+        <div id="tabla">
+            
+            <section>
+                
+                <h2 id="top-ventas-futbol">Top ventas en artículos de fútbol:  </h2>
+                <article class="top-ventas">
+                    <h3>Balón kipsta</h3>
+                    <div >
+                        <img  src="./assets/images/balon-kipsta.avif" alt="balon-kipsta"  class="img"> 
+                    </div>
+                    <p class="center">13 €</p>
+                    <div>
+                        <a href="#top-ventas-futbol">Comprar</a>
+                    </div>
+                </article>
+                <article class="top-ventas"> 
+                    <h3>Botas addidas crazyfast</h3>
+                    <div >
+                        <img  src="./assets/images/adidas-crazyfast.avif" alt="Zapatillas-adiddas-futbol"  class="img"> 
+                    </div>
+                    <p class="center">29 €</p>
+                    <div>
+                        <a href="#top-ventas-futbol">Comprar</a>
+                    </div>
+                </article>
+                <article class="top-ventas"> 
+                    <h3>Camiseta de brasil adulto</h3>
+                        <div >
+                        <img  src="./assets/images/camiseta-de-futbol-brasil-adulto-kipsta.avif" alt="camiseta-de-futbol-brasil-adulto-kipsta"  class="img"> 
+                    </div>
+                    <p class="center">40 €</p>
+                    <div>
+                        <a href="#top-ventas-futbol">Comprar</a>
+                    </div>
+                </article>
+            
+                <aside>
+                    <div ><b>Nuestros proveedores </b></div>
+                    
+                    <ol>
+                        <li><a href="https://www.dondeporte.com/deportes?gad_source=1&gclid=EAIaIQobChMIwffbyoumggMV9EJBAh1OXAmpEAAYAiAAEgLn1PD_BwE"> DonDeporte </a></li>
+                        <li><a href="https://burby.es/?gclid=EAIaIQobChMIwffbyoumggMV9EJBAh1OXAmpEAAYBCAAEgIsJvD_BwE"> Burby </a></li>
+                        <li><a href="https://kaixer.es/material-deportivo/"> Kaiser </a></li>
+                        <li><a href="https://www.clubdelzapato.com/deporte/material"> Club del zapato</a></li>
+                    </ol>
+                </aside>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <div>
+                   
+                    <h3 id="ropa-futbol"> <i class="fa-solid fa-shirt"></i> Ropa </h3>
+                    
+                    <article class="top-ventas-clear">
+                        <h3>Pantalón corto de niño</h3>
+                        <div >
+                            <img  src="./assets/images/pantalon-corto-de-futbol-ninos-kipsta.avif" alt="pantalon-corto-de-futbol-ninos-kipsta"  class="img"> 
+                        </div>
+                        <p class="center">18 €</p>
+                        <div>
+                            <a href="#ropa-futbol">Comprar</a>
+                        </div>
+                    </article>
+                    <article class="top-ventas"> 
+                        <h3>Pantalón corto de adulto</h3>
+                        <div >
+                            <img  src="./assets/images/pantalon-corto-portero-de-futbol-adulto-kipsta.avif" alt="pantalon-corto-portero-de-futbol-adulto-kipsta" class="img"> 
+                        </div>
+                        <p class="center">23 €</p>
+                        <div>
+                            <a href="#ropa-futbol">Comprar</a>
+                        </div>
+                    </article>
+                    <article class="top-ventas"> 
+                        <h3>Camiseta de brasil adulto</h3>
+                            <div >
+                            <img  src="./assets/images/camiseta-de-futbol-brasil-adulto-kipsta.avif" alt="camiseta-de-futbol-brasil-adulto-kipsta"  class="img"> 
+                        </div>
+                        <p class="center">40 €</p>
+                        <div>
+                            <a href="#ropa-futbol">Comprar</a>
+                        </div>
+                    </article><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+                    <h3 id="calzado-futbol"><i class="fa-solid fa-shoe-prints"> </i> Calzado </h3>
+                    <article class="top-ventas-clear">
+                        <h3>Botas addidas crazyfast</h3>
+                        <div >
+                            <img  src="./assets/images/adidas-crazyfast.avif" alt="Zapatillas-adiddas-futbol"  class="img"> 
+                        </div>
+                        <p class="center">29 €</p>
+                        <div>
+                            <a href="#calzado-futbol">Comprar</a>
+                        </div>
+                    </article>
+                    <article class="top-ventas"> 
+                        <h3>Botas kipsta</h3>
+                        <div >
+                            <img  src="./assets/images/botas-de-futbol-kipsta.avif" alt="botas-de-futbol-kipsta"  class="img"> 
+                        </div>
+                        <p class="center">21 €</p>
+                        <div>
+                            <a href="#calzado-futbol">Comprar</a>
+                        </div>
+                    </article>
+                    <article class="top-ventas"> 
+                        <h3>Botas puma</h3>
+                            <div >
+                            <img  src="./assets/images/botas-de-futbol-adulto-puma.avif" alt="botas-de-futbol-adulto-puma"  class="img"> 
+                        </div>
+                        <p class="center">27 €</p>
+                        
+                            <a href="#calzado-futbol">Comprar</a>
+                        
+                    </article><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+                    <h3 id="material-futbol"><i class="fa-regular fa-futbol"></i> Material deportivo </h3>
+                    <article class="top-ventas-clear">
+                        <h3>Balón addidas</h3>
+                        <div >
+                            <img  src="./assets/images/balon-addidas.avif" alt="balon-addidas" class="img"> 
+                        </div>
+                        <p class="center">21 €</p>
+                        <div>
+                            <a href="#material-futbol">Comprar</a>
+                        </div>
+                    </article>
+                    <article class="top-ventas"> 
+                        <h3>Balón kipsta</h3>
+                        <div >
+                            <img  src="./assets/images/balon-kipsta.avif" alt="balon-kipsta"  class="img"> 
+                        </div>
+                        <p class="center">13 € </p>
+                        <div>
+                            <a href="#material-futbol">Comprar</a>
+                        </div>
+                    </article>
+                    <article class="top-ventas"> 
+                        <h3>Balón ucl</h3>
+                            <div >
+                            <img  src="./assets/images/balon-ucl.avif" alt="balon-ucl"  class="img"> 
+                        </div>
+                        <p class="center">18 €</p>
+                        <div>
+                            <a href="#material-futbol">Comprar</a>
+                        </div>
+                    </article>
+                    
+                </div>
+                <div id="iframe">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1869.69038235231!2d-0.6854083367501161!3d37.99038569650982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd63a9f1d12c5bc9%3A0xa169a7f40e98aa64!2sHabaneras%20Centro%20Comercial!5e0!3m2!1ses!2ses!4v1698341926723!5m2!1ses!2ses"
+                     width="400" height="400"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+            </section>
+        </div>
+
+            <footer>
+                <p>Deportes DIW</p>
+                <p><a href="#contenido"> Política de privacidad y cookies</a></p>
+            </footer>
+            <div id="iconos">
+                
+                <img src="./assets/images/whatsapp.png" usemap="#idwhats" alt="Whatsapp" height="30" width="30">
+            <map name="idwhats">
+                <area href="https://www.whatsapp.com/?lang=es_LA" alt="Whatsapp" shape="circle" coords="30,30,50">
+            </map>
+            
+            <img src="./assets/images/signo-de-twitter.png" usemap="#idtwitter" alt="Twitter" height="30" width="30">
+            <map name="idtwitter">
+                <area href="https://twitter.com/?lang=es" alt="Twitter" shape="circle" coords="30,30,50">
+            </map>
+            
+            <img src="./assets/images/facebook.png" usemap="#idfacebook" alt="Facebook" height="30" width="30">
+            <map name="idfacebook">
+                <area href="https://www.facebook.com/?locale=es_ES" alt="Facebook" shape="circle" coords="30,30,50" >
+                
+            
+                
+            </map>
+            </div>
+    </div>
+</body>
+</html>

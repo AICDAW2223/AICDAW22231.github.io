@@ -1,0 +1,43 @@
+table{
+    clear:both;
+    float:left;
+    width:100%;
+    
+   border-style: groove;
+   border-width: 2px;
+   border-color: rgb(220, 220, 220);
+   border-collapse: collapse;
+   text-align: center;
+   margin-top: 5%;
+   
+}
+
+tr:nth-child(odd)
+{
+    background-color: #fcef7e;
+}
+tr:nth-child(even)
+{
+    background-color: #f8c77e;
+}
+tr:first-child{
+    background-color: #6d73ff;
+}
+th{
+    border-style: double;
+    border-width: 2px;
+    border-color: rgb(24, 23, 23);
+    
+}
+
+td{
+    border-style: solid;
+    border-width:2px;
+    border-color: gainsboro;
+    
+}
+.bot-title{
+    caption-side: bottom;
+    border-style: outset;
+    border-top: none;
+}

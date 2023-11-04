@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sección de Tenis</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/styledeportes.css">
+    <style>
+         @font-face {
+        font-family: "Bitstream Vera Serif Bold";
+        src: url("https://mdn.github.io/css-examples/web-fonts/VeraSeBd.ttf");
+      }
+        article a{
+            display: inline-block;
+            width: 50px;
+            height:20px;
+            font-weight: 500;
+            border-radius: 10px;
+            padding:7px 20px;
+            text-decoration: none;
+            color:#282525;
+            border-color:#282525;
+            margin-left:120px;
+            text-align: center;
+        }
+        div > a:link{
+            background-color:#ffee54;
+            
+        }
+        a:hover{
+            background-color: #fcef7e;
+            border:2px solid #c9c9c9;
+        }
+        a:active{
+            background-color: #ead730;
+        }
+        a:visited{
+            background-color: #fdf4a1;
+            color:#282525;
+        }
+        ol >li a{
+            display: block;
+           margin-top: 1px;
+           padding:5px 0px;
+            text-decoration: none;
+            background-color:#ffee54;
+            color:#282525;
+           
+            text-align: center;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/d0cf59b832.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="contenedor">
+            <header>
+             
+             <img src="./assets/images/logo1.png" usemap="#idmapa" alt="logo" height="200" width="200">
+             <map name="idmapa">
+                <area href="index.html" alt="Web" shape="circle" coords="100,100,86">
+             </map> 
+            
+             <h1>Deportes DIW</h1>
+            </header>
+            <div id="maquetado">
+                <nav >
+               <ul class="listapadre">
+                   <li><a href="index.html">Inicio</a></li>
+                   <li><a href="futbol.html">Futbol</a>
+                       <ul>
+                           <li><a href="futbol.html#ropa-futbol"><i class="fa-solid fa-shirt"></i> Ropa</a></li>
+                           <li><a href="futbol.html#calzado-futbol"><i class="fa-solid fa-shoe-prints"></i> Calzado</a></li>
+                           <li><a href="futbol.html#material-futbol"><i class="fa-regular fa-futbol"></i> Material deportivo</a></li>
+                       </ul>
+                   </li>
+                       
+                   <li><a href="baloncesto.html">Baloncesto</a>
+                       <ul>
+                       <li><a href="baloncesto.html#ropa-baloncesto"><i class="fa-solid fa-shirt"> </i>Ropa</a></li>
+                       <li><a href="baloncesto.html#calzado-baloncesto"><i class="fa-solid fa-shoe-prints"> </i>Calzado</a></li>
+                       <li><a href="baloncesto.html#material-baloncesto"><i class="fa-solid fa-basketball"></i> Material deportivo</a></li>
+                       </ul>
+                   </li>
+                   
+                   <li><a href="tenis.html">Tenis/Padel</a>
+                       <ul>
+                           <li><a href="tenis.html#ropa-tenis"><i class="fa-solid fa-shirt"> </i>Ropa</a></li>
+                           <li><a href="tenis.html#calzado-tenis"><i class="fa-solid fa-shoe-prints"> </i>Calzado</a></li>
+                           <li><a href="tenis.html#raquetas"><i class="fa-solid fa-table-tennis-paddle-ball"></i> Raquetas</a></li>
+                           <li><a href="tenis.html#palas"><i class="fa-solid fa-table-tennis-paddle-ball"></i> Palas</a></li>
+                           <li><a href="tenis.html#pelotas"><i class="fa-solid fa-baseball"></i> Pelotas</a></li>
+                       </ul>
+                   </li>
+                   
+                   <li><a href="running.html">Running</a>
+                       <ul>
+                           <li><a href="running.html#ropa-futbol"><i class="fa-solid fa-shirt"> </i>Ropa</a></li>
+                           <li><a href="running.html#calzado-futbol"><i class="fa-solid fa-shoe-prints"> </i>Calzado</a></li>
+                       </ul>
+                   </li>
+                   
+                   <li><a href="servicios.html">Servicios</a></li>
+                   <li><a href="contacto.html">Contacto</a></li> 
+               </ul>
+                </nav>
+           </div>
+        <div id="tabla">
+            
+            <section>
+                
+                <h2 id="top-ventas-tenis">Top ventas en artículos de tenis:  </h2>
+                <article class="top-ventas">
+                    <h3>Pack-pelotas</h3>
+                    <div >
+                        <img  src="./assets/images/pelota-de-tenis-dunlop.avif" alt="Pack-pelotas" class="img"> 
+                    </div>
+                    <p class="center">8 €</p>
+                    <div>
+                        <a href="#top-ventas-tenis">Comprar</a>
+                    </div>
+                </article>
+                <article class="top-ventas"> 
+                    <h3>Raqueta de tenis gravity26</h3>
+                    <div >
+                        <img  src="./assets/images/raqueta-tenis.avif" alt="Raqueta-gravity26"  class="img"> 
+                    </div>
+                    <p class="center">64 €</p>
+                    <div>
+                        <a href="#top-ventas-tenis">Comprar</a>
+                    </div>
+                </article>
+                <article class="top-ventas"> 
+                    <h3>Muñequeras artengo</h3>
+                        <div >
+                        <img  src="./assets/images/munequera-de-tenis-artengo.avif" alt="munequera-de-tenis-artengo"  class="img"> 
+                    </div>
+                    <p class="center">6 €</p>
+                    <div>
+                        <a href="#top-ventas-tenis">Comprar</a>
+                    </div>
+                </article>
+            
+                <aside>
+                    <div ><b>Nuestros proveedores</b></div>
+                    
+                    <ol>
+                        <li><a href="https://www.dondeporte.com/deportes?gad_source=1&gclid=EAIaIQobChMIwffbyoumggMV9EJBAh1OXAmpEAAYAiAAEgLn1PD_BwE"> DonDeporte </a></li>
+                        <li><a href="https://burby.es/?gclid=EAIaIQobChMIwffbyoumggMV9EJBAh1OXAmpEAAYBCAAEgIsJvD_BwE"> Burby </a></li>
+                        <li><a href="https://kaixer.es/material-deportivo/"> Kaiser </a></li>
+                        <li><a href="https://www.clubdelzapato.com/deporte/material"> Club del zapato</a></li>
+                    </ol>
+                </aside>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <div>
+                   
+                    <h3 id="ropa-tenis"><i class="fa-solid fa-shirt"></i> Ropa </h3>
+                    <article class="top-ventas-clear">
+                        <h3>Visera artengo</h3>
+                        <div >
+                            <img  src="./assets/images/visera-de-tenis-artengo.avif" alt="visera-de-tenis-artengo"  class="img"> 
+                        </div>
+                        <p class="center">7 €</p>
+                        <div>
+                            <a href="#ropa-tenis">Comprar</a>
+                        </div>
+                    </article>
+                    <article class="top-ventas"> 
+                        <h3>Muñequeras artengo</h3>
+                        <div >
+                            <img  src="./assets/images/munequera-de-tenis-artengo.avif" alt="munequera-de-tenis-artengo"  class="img"> 
+                        </div>
+                        <p class="center">6 €</p>
+                        <div>
+                            <a href="#ropa-tenis">Comprar</a>
+                        </div>
+                    </article>
+                    <article class="top-ventas"> 
+                        <h3>Polo puma de hombre</h3>
+                            <div >
+                            <img  src="./assets/images/polo-hombre-puma-black.avif" alt="polo-hombre-puma-black"  class="img"> 
+                        </div>
+                        <p class="center">23</p>
+                        <div>
+                            <a href="#ropa-tenis">Comprar</a>
+                        </div>
+                    </article><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+                    <h3 id="calzado-tenis"><i class="fa-solid fa-shoe-prints"> </i> Calzado </h3>
+                    <article class="top-ventas-clear">
+                        <h3>Zapatillas de mujer artengo</h3>
+                        <div >
+                            <img  src="./assets/images/zapatillas-de-tenis-mujer-artengo.avif" alt="zapatillas-de-tenis-mujer-artengo"  class="img"> 
+                        </div>
+                        <p class="center">20 €</p>
+                        <div>
+                            <a href="#calzado-tenis">Comprar</a>
+                        </div>
+                    </article>
+                    <article class="top-ventas"> 
+                        <h3>Zapatillas blancas addidas de mujer </h3>
+                        <div >
+                            <img  src="./assets/images/zapatillas-mujer-adidas-base-blanco.avif" alt="zapatillas-mujer-adidas-base-blanco"  class="img"> 
+                        </div>
+                        <p class="center">46 €</p>
+                        <div>
+                            <a href="#calzado-tenis">Comprar</a>
+                        </div>
+                    </article>
+                    <article class="top-ventas"> 
+                        <h3>Zapatos de interior asics gel</h3>
+                            <div >
+                            <img  src="./assets/images/zapatos-de-interior-asics-gel.avif" alt="zapatos-de-interior-asics-gel"  class="img"> 
+                        </div>
+                        <p class="center">54 €</p>
+                        <div>
+                            <a href="#calzado-tenis">Comprar</a>
+                        </div>
+                    </article>
+                    
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+                    <h3 id="raquetas"><i class="fa-solid fa-table-tennis-paddle-ball"></i> Raquetas </h3>
+                    <article class="top-ventas-clear">
+                        <h3>Raqueta de tenis gravity26</h3>
+                        <div >
+                            <img  src="./assets/images/raqueta-tenis.avif" alt="Raqueta-gravity26"  class="img"> 
+                        </div>
+                        <p class="center">64 €</p>
+                        <div>
+                            <a href="#raquetas">Comprar</a>
+                        </div>
+                    </article>
+                    <article class="top-ventas"> 
+                        <h3>Raqueta head speed adulto</h3>
+                        <div >
+                            <img  src="./assets/images/raqueta-de-tenis-adulto-head-speed.avif" alt="raqueta-de-tenis-adulto-head-speed"  class="img"> 
+                        </div>
+                        <p class="center">110 €</p>
+                        <div>
+                            <a href="#raquetas">Comprar</a>
+                        </div>
+                    </article>
+                    <article class="top-ventas"> 
+                        <h3>Raqieta wilson de adulto</h3>
+                            <div >
+                            <img  src="./assets/images/raqueta-de-tenis-adulto-wilson-burn.avif" alt="raqueta-de-tenis-adulto-wilson-burn"  class="img"> 
+                        </div>
+                        <p class="center">100 €</p>
+                        <div>
+                            <a href="#raquetas">Comprar</a>
+                        </div>
+                    </article>
+                    
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+                    <h3 id="palas" ><i class="fa-solid fa-table-tennis-paddle-ball"></i> Palas </h3>
+                    <article class="top-ventas-clear">
+                        <h3>Pala bullpadel vertex</h3>
+                        <div >
+                            <img  src="./assets/images/pala-de-padel-adulto-bullpadel-vertex-02.avif" alt="pala-de-padel-adulto-bullpadel-vertex-02"  class="img"> 
+                        </div>
+                        <p class="center">98 €</p>
+                        <div>
+                            <a href="#palas">Comprar</a>
+                        </div>
+                    </article>
+                    <article class="top-ventas"> 
+                        <h3>Pala head extreme pro</h3>
+                        <div >
+                            <img  src="./assets/images/pala-de-padel-adulto-head-extreme-pro.avif" alt="pala-de-padel-adulto-head-extreme-pro" class="img"> 
+                        </div>
+                        <p class="center">230 €</p>
+                        <div>
+                            <a href="#palas">Comprar</a>
+                        </div>
+                    </article>
+                    <article class="top-ventas"> 
+                        <h3>Pala nox</h3>
+                            <div >
+                            <img  src="./assets/images/pala-de-padel-adultos-nox.avif" alt="pala-de-padel-adultos-nox" class="img" > 
+                        </div>
+                        <p class="center">23</p>
+                        <div>
+                            <a href="#palas">Comprar</a>
+                        </div>
+                    </article>
+                    
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+                    <h3 id="pelotas"><i class="fa-solid fa-baseball"></i> Pelotas </h3>
+                    <article class="top-ventas-clear">
+                        <h3>Pack-pelotas</h3>
+                        <div >
+                            <img  src="./assets/images/pelota-de-tenis-dunlop.avif" alt="Pack-pelotas"  class="img"> 
+                        </div>
+                        <p class="center">8 €</p>
+                        <div>
+                            <a href="#pelotas">Comprar</a>
+                        </div>
+                    </article>
+                    <article class="top-ventas"> 
+                        <h3>Bolsa de 60 pelotas de entrenamiento </h3>
+                        <div >
+                            <img  src="./assets/images/pelotas-de-tenis-entrenamiento-prince-trainer-bolsa-de-60.avif" alt="pelotas-de-tenis-entrenamiento-prince-trainer-bolsa-de-60"  class="img"> 
+                        </div>
+                        <p class="center">119 €</p>
+                        <div>
+                            <a href="#pelotas">Comprar</a>
+                        </div>
+                    </article>
+                    <article class="top-ventas"> 
+                        <h3>Tubo de 4 pelotas de tenis wilson</h3>
+                            <div >
+                            <img  src="./assets/images/tubo-de-4-pelotas-de-tenis-wilson.avif" alt="tubo-de-4-pelotas-de-tenis-wilson" class="img"> 
+                        </div>
+                        <p class="center">15 €</p>
+                        <div>
+                            <a href="#pelotas">Comprar</a>
+                        </div>
+                    </article>
+                    
+                </div>
+                <div id="iframe">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1869.69038235231!2d-0.6854083367501161!3d37.99038569650982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd63a9f1d12c5bc9%3A0xa169a7f40e98aa64!2sHabaneras%20Centro%20Comercial!5e0!3m2!1ses!2ses!4v1698341926723!5m2!1ses!2ses"
+                     width="400" height="300"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+            </section>
+        </div>
+
+            <footer>
+                <p>Deportes DIW</p>
+                <p><a href="#contenido"> Política de privacidad y cookies</a></p>
+            </footer>
+            <div id="iconos">
+                
+                <img src="./assets/images/whatsapp.png" usemap="#idwhats" alt="Whatsapp" height="30" width="30">
+            <map name="idwhats">
+                <area href="https://www.whatsapp.com/?lang=es_LA" alt="Whatsapp" shape="circle" coords="30,30,50">
+            </map>
+            
+            <img src="./assets/images/signo-de-twitter.png" usemap="#idtwitter" alt="Twitter" height="30" width="30">
+            <map name="idtwitter">
+                <area href="https://twitter.com/?lang=es" alt="Twitter" shape="circle" coords="30,30,50">
+            </map>
+            
+            <img src="./assets/images/facebook.png" usemap="#idfacebook" alt="Facebook" height="30" width="30">
+            <map name="idfacebook">
+                <area href="https://www.facebook.com/?locale=es_ES" alt="Facebook" shape="circle" coords="30,30,50" >
+                
+            
+                
+            </map>
+            </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+.contenedorform{
+    
+    float:left;
+	width:40%;
+	margin:15px;
+	padding: 10px;
+	background-color:#E7EEFE;
+	
+	border:1px solid;
+	width:97%;
+}
+.contacto {
+    float:right;
+    width:29%;
+    text-align:left;
+    margin-top:5px;
+}
+   .textos {
+    display:table-cell;
+    text-align:right;
+    width:46%;
+    padding-right:5px;
+   padding:1%;
+    
+}
+.izq1 {
+			
+    clear:both;
+    float:left;
+    width:49%;
+
+text-align:right;
+margin-top:5px;
+}
+.dch {
+    float:right;
+    width:50%;
+
+text-align:left;
+margin-top:5px;
+}
+#clear {
+    clear:both;
+    text-align:center;
+    padding-top:25px;
+}

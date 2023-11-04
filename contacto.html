@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/contacto.css">
+</head>
+<body>
+    <div id="contenedor">
+        <header>
+            <img src="./assets/images/logo1.png" usemap="#idmapa" alt="logo" height="200" width="200">
+             <map name="idmapa">
+                <area href="index.html" alt="Web" shape="circle" coords="100,100,86">
+             </map>
+            <h1>Deportes DIW</h1>
+        </header>
+        <div id="maquetado">
+            <nav >
+           <ul class="listapadre">
+               <li><a href="index.html">Inicio</a></li>
+               <li><a href="futbol.html">Futbol</a>
+                   <ul>
+                       <li><a href="futbol.html#ropa-futbol"><i class="fa-solid fa-shirt"></i> Ropa</a></li>
+                       <li><a href="futbol.html#calzado-futbol"><i class="fa-solid fa-shoe-prints"></i> Calzado</a></li>
+                       <li><a href="futbol.html#material-futbol"><i class="fa-regular fa-futbol"></i> Material deportivo</a></li>
+                   </ul>
+               </li>
+                   
+               <li><a href="baloncesto.html">Baloncesto</a>
+                   <ul>
+                   <li><a href="baloncesto.html#ropa-baloncesto"><i class="fa-solid fa-shirt"> </i>Ropa</a></li>
+                   <li><a href="baloncesto.html#calzado-baloncesto"><i class="fa-solid fa-shoe-prints"> </i>Calzado</a></li>
+                   <li><a href="baloncesto.html#material-baloncesto"><i class="fa-solid fa-basketball"></i> Material deportivo</a></li>
+                   </ul>
+               </li>
+               
+               <li><a href="tenis.html">Tenis/Padel</a>
+                   <ul>
+                       <li><a href="tenis.html#ropa-tenis"><i class="fa-solid fa-shirt"> </i>Ropa</a></li>
+                       <li><a href="tenis.html#calzado-tenis"><i class="fa-solid fa-shoe-prints"> </i>Calzado</a></li>
+                       <li><a href="tenis.html#raquetas"><i class="fa-solid fa-table-tennis-paddle-ball"></i> Raquetas</a></li>
+                       <li><a href="tenis.html#palas"><i class="fa-solid fa-table-tennis-paddle-ball"></i> Palas</a></li>
+                       <li><a href="tenis.html#pelotas"><i class="fa-solid fa-baseball"></i> Pelotas</a></li>
+                   </ul>
+               </li>
+               
+               <li><a href="running.html">Running</a>
+                   <ul>
+                       <li><a href="running.html#ropa-futbol"><i class="fa-solid fa-shirt"> </i>Ropa</a></li>
+                       <li><a href="running.html#calzado-futbol"><i class="fa-solid fa-shoe-prints"> </i>Calzado</a></li>
+                   </ul>
+               </li>
+               
+               <li><a href="servicios.html">Servicios</a></li>
+               <li><a href="contacto.html">Contacto</a></li> 
+           </ul>
+            </nav>
+       </div>
+        <div id="contenedorform">
+            <form id="formulario">
+                <div class="izq1">
+                    Nombre:
+                </div>
+                <div class="dch">
+                    <input type="text" name="nombre" size ="30"  pattern="[A-Za-z0-9]+" autofocus placeholder="Nombre" required>
+                </div>
+                <div class="izq1">
+                    Email:
+                </div>
+                <div class="dch">
+                    <input type="email" name="mail" placeholder="email@xxxx.com" required>
+                </div>
+                <div class="izq1">
+                    Edad:
+                </div>
+                <div class="dch">
+                    <input type="number" name="edad"   min="18" max="99" placeholder="Edad (num&eacute;rico)" required>
+                </div>
+                <div class="izq1">
+                    Teléfono:
+                </div>
+                <div class="dch">
+                    <input type="tel" name="telefono"  size ="32" placeholder="Tel&eacute;fono" required>
+                </div>
+                <div class="izq1">
+                   Campo de consulta:
+                </div>
+                <div class="dch">
+                    <textarea placeholder="texto a consultar" required></textarea>
+                </div>
+                <div class="izq1">
+                    <label for="cookies">Aceptaci&oacute;n de pol&iacute;tica de privacidad y cookies</label>
+                 </div>
+                 <div class="dch">
+                    <input id="cookies" type="checkbox" required>
+                 </div>
+                <div id="clear">
+                    <input type="submit" value="Enviar">
+
+                </div>
+           
+            </form>
+        </div>
+         
+            <footer>
+                <p>Deportes DIW</p>
+                <p><a href="#contenido"> Política de privacidad y cookies </a></p>
+            </footer>
+            <div class="contacto">
+                <fieldset>
+                    <legend>Datos de contacto</legend>
+                    <p><b>Nombre: </b>Deportes DIW</p>
+                    <p><b>Dirección: </b>Av. Rosa Mazón Valero, 7, 03184 Torrevieja, Alicante</p>
+                    <p><b>Teléfono: </b><a href="tel:+34637199755">637199755</a></p>
+                </fieldset>
+            </div>
+    </div>
+</body>
+</html>
